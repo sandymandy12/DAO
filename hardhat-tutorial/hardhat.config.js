@@ -4,8 +4,8 @@ require("dotenv").config({ path: ".env" });
 const QUICKNODE_HTTP_URL = process.env.QUICKNODE_HTTP_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
-// FakeNFTMarketplace deployed to:  0xD5EbA88e394ff7567F98f998F00139F7cf2f15c2
-// CryptoDevsDAO deployed to:  0xebF3cC5bDE5A101a81E17Be8bf40Cce1455d259C
+// FakeNFTMarketplace deployed to:  0x238E494baB58A853109570C4a7C9Ea018A29F869
+// CryptoDevsDAO deployed to:  0xBDaE25d52a4D378d1D1fd5d4C9A5ce985bbdb794
 
 module.exports = {
   solidity: "0.8.4",
